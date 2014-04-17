@@ -117,10 +117,11 @@
         "image": {
             "prototype": "digit/ui/image.reel",
             "properties": {
-                "element": {"#": "image"}
+                "element": {"#": "image"},
+                "crossOrigin": null
             },
             "bindings": {
-                "src": {"<-": "@flow.objectAtCurrentIteration"}
+                "src": {"<-": "@flow:iteration.object"}
             }
         },
         "rangeController": {

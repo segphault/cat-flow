@@ -23,3 +23,6 @@
     background-repeat: repeat-x;
 }
 
+.Main .Main-catImage {
+    pointer-events: none;
+}

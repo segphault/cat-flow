@@ -23,7 +23,6 @@
     background-repeat: repeat-x;
 }
 
-// Prevent drag-and-drop ghost in Safari
-.Main .Main-catImage {
+.Main-catImage {
     pointer-events: none;
 }
